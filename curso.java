@@ -1,9 +1,7 @@
-public class curso extends disciplina{
+public class curso{
    String nomeC;
 
-  public curso(String nomeC,String nomeDisc,Float notaFinal){
-    this.nomeC = nomeC;
-    this.nomeDisc =nomeDisc;
-    this.notaFinal =notaFinal;
+    void InfoCurso(){
+        System.out.println("Curso :"+ this.nomeC);
   }
-  }
+}
